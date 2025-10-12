@@ -32,7 +32,7 @@ jobs:
       - name: setup pages
         uses: actions/configure-pages@v5
         with:
-          cname: take7.co.nz
+          cname: take7.org.nz
 
       - name: upload artifact
         uses: actions/upload-pages-artifact@v3
